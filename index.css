@@ -1,0 +1,175 @@
+.wrapper {
+}
+.name {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-500px);
+  color: white;
+  text-decoration: ;
+  letter-spacing: 15px;
+  margin-top: 50px;
+  animation: heading;
+  animation-duration: 1s;
+}
+.img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  animation: heading;
+  animation-duration: 2s;
+}
+h1 {
+  justify-content: center;
+  color: white;
+}
+h4 {
+  transform: translate(-250px, 50px);
+  letter-spacing: 10px;
+}
+body {
+  background-color: rgba(31, 30, 30);
+}
+/*@keyframes heading {
+  0% {
+    height: 300px;
+    letter-spacing: 3px;
+  }
+  100% {
+    letter-spacing: 15px;
+    text-decoration: ;
+    text-shadow: cornsilk;
+  }
+}*/
+.about {
+  transform: translateY(-100px);
+  color: white;
+  width: 500px;
+  background-color: grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+p {
+  animation: panime;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+}
+@keyframes panime {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fab {
+  font-size: 40px;
+  transition: font-size 0.2s, transform 2s;
+  animation: contactanime;
+  animation-duration: 4s;
+}
+.fa-facebook {
+  color: white;
+  margin-bottom: 10px;
+  transform: rotate(360deg);
+}
+.fa-facebook:hover {
+  font-size: 45px;
+  transform: rotate(360deg);
+  color: rgb(73, 73, 238);
+}
+.fa-instagram {
+  color: white;
+  margin-bottom: 10px;
+  transform: rotate(360deg);
+}
+.fa-instagram:hover {
+  font-size: 45px;
+}
+.fa-twitter {
+  color: white;
+  transform: rotate(360deg);
+}
+.fa-twitter:hover {
+  font-size: 45px;
+  color: rgb(73, 73, 238);
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-500px);
+  position: fixed;
+  z-index: 1;
+}
+@keyframes contactanime {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.movies {
+  display: flex;
+
+  color: white;
+  margin-left: 800px;
+  transform: translateY(-300px);
+  border-radius: 10px;
+  transition: width 2s;
+}
+.movies h1 {
+  color: whitesmoke;
+  text-transform: uppercase;
+
+  letter-spacing: 5px;
+}
+.courosel-container {
+  display: flex;
+  border-radius: 10px;
+  height: 300px;
+  margin-left: 800px;
+  margin-top: -300px;
+  border: 4px solid white;
+  overflow: hidden;
+}
+.courosel-slide {
+  display: flex;
+  height: 300px;
+  width: 100%;
+}
+#nextbtn {
+  display: flex;
+  margin-left: 1405px;
+  transform: translateY(-215px);
+  background: none;
+  padding: 0px;
+  border: none;
+  outline: none;
+}
+#prevbtn {
+  margin-left: 875px;
+  transform: translateY(-165px);
+  background: none;
+  padding: 0px;
+  border: none;
+  outline: none;
+}
+.fa-arrow-circle-left {
+  color: white;
+  font-size: 50px;
+  color: rgb(105, 100, 100);
+  opacity: 0.5;
+}
+.fa-arrow-circle-left:hover {
+  opacity: 1;
+}
+.fa-arrow-circle-right:hover {
+  opacity: 1;
+}
+.fa-arrow-circle-right {
+  color: white;
+  font-size: 50px;
+  color: rgb(105, 100, 100);
+  opacity: 0.5;
+}

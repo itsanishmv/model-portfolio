@@ -29,17 +29,18 @@ h4 {
 body {
   background-color: rgba(31, 30, 30);
 }
-/*@keyframes heading {
+@keyframes heading {
   0% {
     height: 300px;
     letter-spacing: 3px;
   }
   100% {
+    height: 700px;
     letter-spacing: 15px;
     text-decoration: ;
     text-shadow: cornsilk;
   }
-}*/
+}
 .about {
   transform: translateY(-100px);
   color: white;
@@ -125,7 +126,6 @@ p {
   letter-spacing: 5px;
 }
 .courosel-container {
-  display: flex;
   border-radius: 10px;
   height: 300px;
   margin-left: 800px;
